@@ -46,6 +46,6 @@ SHA256 Fingerprint=<fingerprint>
 
 If your library doesn't support a method of validating the fingerprint, the 
 auto-generated CA certificate is created in the
-`$ES_HOME/config/certs/` directory on each {es} node. Copy the
+`/etc/elasticsearch/certs` directory on each {es} node. Copy the
 `http_ca.crt` file to your machine and configure your client to use this
 certificate to establish trust when it connects to {es}.
